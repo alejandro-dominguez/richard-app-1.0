@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Raleway:wght@300;400;700;800&display=swap');
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply m-0 p-0 box-border outline-none;
+}
+
+html {
+    @apply scroll-smooth;
+}
+
+body {
+	@apply bg-slate-500/10 text-zinc-800/90 antialiased overflow-x-hidden min-h-[100svh] text-base overflow-y-scroll;
+}
+
+span {
+	@apply block;
+}
+
+textarea {
+	@apply resize-none;
+}
+
+img {
+	@apply w-full block;
+}
+
+li {
+	@apply list-none;
+}
+
+/* @layer components {
+
+	.contact-input {
+		@apply text-sm mt-2 bg-teal-500/[8%] shadow-sm py-2 px-3 rounded-sm drop-shadow-sm text-black md:w-72;
+	}
+} */
